@@ -9,7 +9,8 @@
 
 int main(void)
 {
-	int sock,ret,on,mode;
+	int sock,ret;
+	int on,mode;
 	char buffer[100],oobdata;
 	struct sockaddr_in saddr;
 	char address[]={"192.168.1.1"};
