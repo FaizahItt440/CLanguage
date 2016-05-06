@@ -111,6 +111,7 @@ int main(void)
 	{
 		printf("Service %s is at port %d\n",sp->s_name,
 		ntohs(sp->s_port));
+
 	}
 
 
