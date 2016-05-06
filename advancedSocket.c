@@ -62,5 +62,4 @@ int main(void)
 	saddr.sin_port = htons(MY_PORT);
 
 	bind(serversock,(struct sockaddr *)&saddr, sizeof(saddr)); 
-
 }
